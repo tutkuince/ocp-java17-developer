@@ -2,6 +2,8 @@ package com.incetutku.ocp.chapter01.creating_objects;
 
 public class OrderOfInitialization {
     public static void main(String[] args) {
+        // Fields and instance initializer blocks are run in the order in which they appear in the file.
+        // The constructor runs after all fields and instance initializer blocks have run.
         System.out.println("Main method started!");
         new B();
     }
