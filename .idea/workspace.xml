@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56e9d73-ad04-43dc-9788-ab2ecdd7cfca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/incetutku/ocp/chapter01/creating_objects/Chick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/incetutku/ocp/chapter01/creating_objects/OrderOfInitialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OrderOfInitialization">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.class_structure.HelloWorld" />
       <module name="ocp-java17-developer" />
@@ -60,8 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderOfInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.creating_objects.OrderOfInitialization" />
+      <module name="ocp-java17-developer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.incetutku.ocp.chapter01.creating_objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderOfInitialization" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -84,7 +98,7 @@
       <updated>1747155978423</updated>
       <workItem from="1747155979423" duration="61000" />
       <workItem from="1747156080493" duration="3009000" />
-      <workItem from="1747323823060" duration="630000" />
+      <workItem from="1747323823060" duration="1323000" />
     </task>
     <servers />
   </component>
