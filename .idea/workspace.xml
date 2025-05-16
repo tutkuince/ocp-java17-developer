@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56e9d73-ad04-43dc-9788-ab2ecdd7cfca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/incetutku/ocp/chapter01/primitive_types/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/incetutku/ocp/chapter01/primitive_types/UsingReferenceTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/incetutku/ocp/chapter01/primitive_types/UsingReferenceTypes2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +32,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DefiningTextBlockFormatting.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.LiteralInt.executor": "Run",
     "Application.OrderOfInitialization.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.SignedVsUnsigned.executor": "Run",
+    "Application.TextBlocks.executor": "Run",
     "Application.UsingReferenceTypes.executor": "Run",
+    "Application.WrapperClasses.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -54,7 +54,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UsingReferenceTypes">
+  <component name="RunManager" selected="Application.DefiningTextBlockFormatting">
+    <configuration name="DefiningTextBlockFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.DefiningTextBlockFormatting" />
+      <module name="ocp-java17-developer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.incetutku.ocp.chapter01.primitive_types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiteralInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.LiteralInt" />
       <module name="ocp-java17-developer" />
@@ -68,34 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderOfInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.creating_objects.OrderOfInitialization" />
-      <module name="ocp-java17-developer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.incetutku.ocp.chapter01.creating_objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimitiveTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.PrimitiveTypes" />
-      <module name="ocp-java17-developer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.incetutku.ocp.chapter01.primitive_types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignedVsUnsigned" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.SignedVsUnsigned" />
+    <configuration name="TextBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.TextBlocks" />
       <module name="ocp-java17-developer" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapperClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.incetutku.ocp.chapter01.primitive_types.WrapperClasses" />
+      <module name="ocp-java17-developer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.incetutku.ocp.chapter01.primitive_types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefiningTextBlockFormatting" />
+        <item itemvalue="Application.TextBlocks" />
+        <item itemvalue="Application.WrapperClasses" />
         <item itemvalue="Application.UsingReferenceTypes" />
         <item itemvalue="Application.LiteralInt" />
-        <item itemvalue="Application.SignedVsUnsigned" />
-        <item itemvalue="Application.PrimitiveTypes" />
-        <item itemvalue="Application.OrderOfInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1747155979423" duration="61000" />
       <workItem from="1747156080493" duration="3009000" />
       <workItem from="1747323823060" duration="5472000" />
-      <workItem from="1747402886606" duration="255000" />
+      <workItem from="1747402886606" duration="3182000" />
     </task>
     <servers />
   </component>
