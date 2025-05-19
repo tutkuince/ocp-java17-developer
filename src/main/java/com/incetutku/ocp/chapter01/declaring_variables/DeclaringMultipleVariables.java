@@ -11,5 +11,7 @@ public class DeclaringMultipleVariables {
 
         // int num, String value;   DOES NOT COMPILE
         // This code doesn't compile because it tries to declare multiple variables of different types in the same statement.
+
+        int i4; int i5; // We have two completely different statements on the same line.
     }
 }
